@@ -1,0 +1,31 @@
+<% layout('layout') -%>
+<script src="js/Duo-Web-v1.bundled.min.js"></script>
+<script>
+Duo.init({
+  'host': '<%= host %>',
+  'post_action': '<%= post_action %>',
+  'sig_request': '<%= sig_request %>'
+});
+</script>
+<style>
+  body {
+    background: #f1f1f1;
+  }
+  .iframe_div {
+    width: 90%;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  #duo_iframe {
+    height: 500px;
+    width: 100%;
+  }
+  div {
+    background: transparent;
+  }
+</style>
+<div class="iframe_div">
+		<iframe id="duo_iframe" frameborder="0" allowtransparency="true"></iframe>
+</div>
+<form method="POST" style="display:none;" id="duo_form">
+</form>

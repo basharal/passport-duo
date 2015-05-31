@@ -1,0 +1,14 @@
+{
+  "name": "passport-duo-two-factor-example",
+  "version": "0.0.0",
+  "dependencies": {
+    "connect-ensure-login": ">= 0.0.0",
+    "connect-flash": ">= 0.0.0",
+    "ejs-locals": ">= 0.0.0",
+    "express": "3.x.x",
+    "duo_web": "^1.0.2",
+    "passport": ">= 0.0.0",
+    "passport-local": ">= 0.0.0",
+    "thirty-two": "0.0.x"
+  }
+}

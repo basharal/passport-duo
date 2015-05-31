@@ -1,0 +1,48 @@
+{
+  "name": "passport-duo",
+  "version": "0.0.1",
+  "description": "Duo authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "duo",
+    "duo-security",
+    "auth",
+    "two-factor",
+    "authentication"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/basharal/passport-duo.git"
+  },
+  "bugs": {
+    "url": "http://github.com/basharal/passport-duo/issues"
+  },
+  "author": {
+    "name": "Bashar Al-Rawi",
+    "email": "basharal@live.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "duo_web": "^1.0.2",
+    "passport": "^0.1.18",
+    "pkginfo": "0.2.x",
+    "url": "^0.10.3",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=./lib node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
