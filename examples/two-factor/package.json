@@ -6,7 +6,7 @@
     "connect-flash": ">= 0.0.0",
     "ejs-locals": ">= 0.0.0",
     "express": "3.x.x",
-    "duo_web": "^1.0.2",
+    "@duosecurity/duo_web": "^1.0.5",
     "passport": ">= 0.0.0",
     "passport-local": ">= 0.0.0",
     "thirty-two": "0.0.x"

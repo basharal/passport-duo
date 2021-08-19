@@ -29,7 +29,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "duo_web": ">=1.0.2",
+    "@duosecurity/duo_web": "^1.0.5",
     "passport": ">=0.1.18",
     "pkginfo": "0.2.x",
     "url": ">=0.10.3",
